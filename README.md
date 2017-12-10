@@ -12,10 +12,13 @@ Required tools:
  ## Installing
  - `fork` this repo
  - `clone` your fork
+ - `cd src`
  - `npm install` to install dependencies
  
  ## Running the Application
  angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. Running `npm start` will transpile the TypeScript into ES5 JavaScript and bundle the application with `parcel`, launch a development server at [http://localhost:1234/](http://localhost:1234/), and watch all files.
+ 
+ Note - You must be in the `src` directory to run these tasks.
  
  ### Tasks
  - `npm run build`
