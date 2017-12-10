@@ -16,16 +16,12 @@ Required tools:
  - `npm install` to install dependencies
  
  ## Running the Application
- angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. Running `npm start` will transpile the TypeScript into ES6 JavaScript and bundle the application with `parcel`, launch a development server at [http://localhost:1234/](http://localhost:1234/), and watch all files for changes.
+ angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. Running `npm start` bundle the application with `parcel`, launch a development server at [http://localhost:1234/](http://localhost:1234/), and watch all files for changes.
  
  Note - You must be in the `src` directory to run these tasks.
  
  ### Tasks
- - `npm run build`
-      - compiles the Angular application's TypeScript into JavaScript in the `ClientApp/dist` directory.
- - `npm run watch`
-      - runs the TypeScript compiler in watch mode to support parcel's hot module replacement.
  - `npm run serve`
       - bundles the application with the `parcel-bundler`. Uses `ClientApp/index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
  - `npm run start`
-      - Builds the application using `npm run build`, and then uses [`concurrently`](https://www.npmjs.com/package/concurrently) to both watch the TypeScript for changes (`npm run watch`) and rebundle (`npm run serve`). 
+      - alias for `npm run server`
