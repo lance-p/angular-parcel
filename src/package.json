@@ -5,8 +5,8 @@
   "scripts": {
     "build": "tsc",
     "buildWatch": "tsc -w",
-    "spin": "concurrently \"npm run buildWatch\" \"parcel app/index.html\"",
-    "start": "npm run build && npm run spin"
+    "parcelRun": "parcel app/index.html",
+    "start": "npm run build && concurrently \"npm run parcelRun\" \"npm run buildWatch\" "
   },
   "repository": {
     "type": "git",
