@@ -7,7 +7,7 @@ This repo servers as a starting point to quickly get an Angular application with
 
 ## Dependencies
 Required tools:
- - `npm` and `parcel`
+ - `npm` and `parcel-bundler`
  
  ## Installing
  - `fork` this repo
