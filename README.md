@@ -1,7 +1,7 @@
 # angular-parcel
 > Boilerplate [Angular](https://angular.io/) application bundled with [Parcel](https://parceljs.org/).
 
-This repo servers as a starting point to quickly get an Angular application with [TypeScript](https://www.typescriptlang.org/) running using the Parcel web application bundler. 
+This repo servers as a starting point to quickly get an Angular application with [TypeScript](https://www.typescriptlang.org/) and [Bootstrap](http://getbootstrap.com/) running using the Parcel web application bundler. 
 
 # Getting Started
 
