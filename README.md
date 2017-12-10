@@ -12,7 +12,7 @@ Required tools:
  ## Installing
  - `fork` this repo
  - `clone` your fork
- - `cd src`
+ - `cd` into `src` directory
  - `npm install` to install dependencies
  
  ## Running the Application
