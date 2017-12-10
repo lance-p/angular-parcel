@@ -25,4 +25,4 @@ Required tools:
  - `npm run serve`
       - runs `parcel app/index.html`. This bundles the application using `index.html` as an entry point, and starts a development server at [http://localhost:1234/](http://localhost:1234/).
  - `npm run start`
-       - Builds the application using `npm run build`, and then uses [`concurrently`](https://www.npmjs.com/package/concurrently) to both watch the TypeScript for changes (`npm run watch`) and rebundle (`npm run serve`). 
+      - Builds the application using `npm run build`, and then uses [`concurrently`](https://www.npmjs.com/package/concurrently) to both watch the TypeScript for changes (`npm run watch`) and rebundle (`npm run serve`). 
