@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "serve": "parcel app/index.html",
+    "serve": "parcel ClientApp/index.html",
     "start": "npm run build && concurrently \"npm run serve\" \"npm run watch\" "
   },
   "repository": {

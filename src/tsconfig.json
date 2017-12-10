@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "app/dist",
+    "outDir": "ClientApp/dist",
     "module": "commonjs",
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -9,5 +9,8 @@
       "dom",
       "es2015"
     ]
-  }
+  },
+  "include": [
+    "ClientApp/**/*"
+  ]
 }
