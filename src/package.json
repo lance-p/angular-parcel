@@ -4,9 +4,9 @@
   "description": "Boilerplate Angular application bundled with Parcel.",
   "scripts": {
     "build": "tsc",
-    "buildWatch": "tsc -w",
-    "parcelRun": "parcel app/index.html",
-    "start": "npm run build && concurrently \"npm run parcelRun\" \"npm run buildWatch\" "
+    "watch": "tsc -w",
+    "serve": "parcel app/index.html",
+    "start": "npm run build && concurrently \"npm run serve\" \"npm run watch\" "
   },
   "repository": {
     "type": "git",
