@@ -22,7 +22,7 @@ Required tools:
  
  ### Tasks
  - `npm run build`
-      - runs `tsc`, which compiles all TypeScript into ES5 JavaScript, and output the files to `src/build/`.
+      - runs `tsc`, which compiles all TypeScript into ES6 JavaScript, and output the files to `src/build/`.
  - `npm run watch`
       - runs `tsc -w`. This will watch all TypeScript files and compile them when they change.
  - `npm run serve`
