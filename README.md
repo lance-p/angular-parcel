@@ -7,7 +7,7 @@ This repo servers as a starting point to quickly get an Angular application with
 
 ## Dependencies
 Required tools:
- - `npm` and `parcel-bundler`
+ - `npm`
  
  ## Installing
  - `fork` this repo
@@ -22,6 +22,6 @@ Required tools:
  
  ### Tasks
  - `npm run serve`
-      - bundles the application with the `parcel-bundler`. Uses `ClientApp/index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
+      - bundles the application with the `parcel-bundler`. Uses `index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
  - `npm run start`
       - alias for `npm run server`
