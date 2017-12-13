@@ -4,7 +4,9 @@
   "description": "Boilerplate Angular application bundled with Parcel.",
   "scripts": {
     "serve": "parcel index.html",
-    "start": "npm run serve"
+    "start": "npm run serve",
+    "build": "parcel build index.html -d release --public-url .",
+    "prod": "npm run build && cd release && http-server"
   },
   "repository": {
     "type": "git",
@@ -39,7 +41,7 @@
   },
   "devDependencies": {
     "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git",
-    "parcel-plugin-typescript": "^0.2.0-angular.0",
+    "parcel-plugin-typescript": "^0.2.1",
     "typescript": "^2.6.2"
   }
 }

@@ -8,6 +8,7 @@ bower_components
 tools/gulp-tasks/cldr/cldr-data/
 .cache/
 dist
+release
 
 # Include when developing application packages.
 pubspec.lock
