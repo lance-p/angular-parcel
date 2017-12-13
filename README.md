@@ -8,6 +8,8 @@ This repo servers as a starting point to quickly get an Angular application with
 ## Dependencies
 Required tools:
  - `npm`
+ - `parcel-bundler`
+ - `http-server` to run production builds
  
  ## Installing
  - `fork` this repo
@@ -16,12 +18,22 @@ Required tools:
  - `npm install` to install dependencies
  
  ## Running the Application
- angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. Running `npm start` will bundle the application with `parcel`, launch a development server at [http://localhost:1234/](http://localhost:1234/), and watch all files for changes.
+angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. You can either run the application in development mode (using Parcel's development server), or in production mode (using `http-server`).
  
  Note - You must be in the `src` directory to run these tasks.
+ 
+ ### Development Mode
+ `npm start`
+ 
+ ### Production Mode
+ `npm run prod`
  
  ### Tasks
  - `npm run serve`
       - bundles the application with the `parcel-bundler`. Uses `index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
  - `npm run start`
       - alias for `npm run server`
+ - `npm run build`
+      - runs a production build using parcel into the `release` directory.
+ - `npm run prod`
+      - runs `npm run build`, and starts an `http-server` instance in the `release` directory at [http://localhost:8080/](http://localhost:8080/).
