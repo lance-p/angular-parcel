@@ -37,11 +37,9 @@
     "core-js": "^2.5.2",
     "rxjs": "^5.5.5",
     "systemjs": "^0.20.19",
-    "zone.js": "^0.8.18"
-  },
-  "devDependencies": {
-    "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git",
+    "zone.js": "^0.8.18",
     "parcel-plugin-typescript": "^0.2.1",
     "typescript": "^2.6.2"
-  }
+  },
+  "devDependencies": {}
 }
