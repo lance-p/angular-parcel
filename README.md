@@ -14,13 +14,10 @@ Required tools:
  ## Installing
  - `fork` this repo
  - `clone` your fork
- - `cd` into `src` directory
  - `npm install` to install dependencies
  
  ## Running the Application
 angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. You can either run the application in development mode (using Parcel's development server), or in production mode (using `http-server`).
- 
- Note - You must be in the `src` directory to run these tasks.
  
  ### Development Mode
  `npm start`
