@@ -8,8 +8,6 @@ This repo servers as a starting point to quickly get an Angular application with
 ## Dependencies
 Required tools:
  - `npm`
- - `parcel-bundler`
- - `http-server` to run production builds
  
  ## Installing
  - `fork` this repo
