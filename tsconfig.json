@@ -9,5 +9,12 @@
             "dom",
             "es6"
         ]
+    },
+    "parcelTsPluginOptions": {
+        "transpileOnly": false,
+        "angular": {
+            "watch": "jit",
+            "build": "aot"
+        }
     }
 }

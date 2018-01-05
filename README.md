@@ -24,11 +24,13 @@ angular-parcel uses `npm` tasks to build and run the application. Once the depen
  `npm run prod`
  
  ### Tasks
- - `npm run serve`
+ - `npm run devServe`
       - bundles the application with the `parcel-bundler`. Uses `index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
  - `npm run start`
-      - alias for `npm run server`
- - `npm run build`
+      - alias for `npm run devServe`
+ - `npm run prodBuild`
       - runs a production build using parcel into the `release` directory.
- - `npm run prod`
-      - runs `npm run build`, and starts an `http-server` instance in the `release` directory at [http://localhost:8080/](http://localhost:8080/).
+ - `npm run prodServe`
+      - uses node to start `sever.js`, which serves the `release` directory at [http://localhost:8000](http://localhost:8000).
+ - `npm run release`
+      - runs `npm run prodBuild`, then `npm run prodServe`.
