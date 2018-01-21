@@ -21,7 +21,7 @@ angular-parcel uses `npm` tasks to build and run the application. Once the depen
  `npm start`
  
  ### Production Mode
- `npm run prod`
+ `npm run release`
  
  ### Tasks
  - `npm run devServe`
