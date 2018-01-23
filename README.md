@@ -34,3 +34,6 @@ angular-parcel uses `npm` tasks to build and run the application. Once the depen
       - uses node to start `sever.js`, which serves the `release` directory at [http://localhost:8000](http://localhost:8000).
  - `npm run release`
       - runs `npm run prodBuild`, then `npm run prodServe`.
+
+# Setup for Heroku
+angular-parcel is setup to be deployed on a Heroku dyno out of the box. Just follow the deploy directions on Heroku. Parcel will run a production build and start the express server on the dyno!
