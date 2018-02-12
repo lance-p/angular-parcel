@@ -14,7 +14,7 @@
         "transpileOnly": false,
         "angular": {
             "watch": "jit",
-            "build": "aot"
+            "build": "jit"
         }
     }
 }
