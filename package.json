@@ -10,7 +10,7 @@
     "release": "npm run prodBuild && npm run prodServe",
     "postinstall": "npm run prodBuild",
     "herokuStart": "npm run prodServe",
-    "clean": "rm -r .cache/ dist/ release/"
+    "clean": "rm -rf .cache/ dist/ release/"
   },
   "repository": {
     "type": "git",
