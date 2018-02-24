@@ -7,33 +7,35 @@ This repo servers as a starting point to quickly get an Angular application with
 
 ## Dependencies
 Required tools:
- - `npm`
+ - `yarn`
  
  ## Installing
  - `fork` this repo
  - `clone` your fork
- - `npm install` to install dependencies
+ - `yarn install` to install dependencies
  
  ## Running the Application
-angular-parcel uses `npm` tasks to build and run the application. Once the dependencies are installed, you may run the app. You can either run the application in development mode (using Parcel's development server), or in production mode (using `express`).
+angular-parcel uses `yarn` to run package scripts to build and run the application. Once the dependencies are installed, you may run the app. You can either run the application in development mode (using Parcel's development server), or in production mode (using `express`).
  
  ### Development Mode
- `npm start`
+ `yarn start`
  
  ### Production Mode
- `npm run release`
+ `yarn run release`
  
- ### Tasks
- - `npm run devServe`
+ ### Scripts
+ - `yarn run devServe`
       - bundles the application with the `parcel-bundler`. Uses `index.html` as an entry point. Starts a development server at [http://localhost:1234/](http://localhost:1234/).
- - `npm run start`
-      - alias for `npm run devServe`
- - `npm run prodBuild`
+ - `yarn run start`
+      - alias for `yarn run devServe`
+ - `yarn run prodBuild`
       - runs a production build using parcel into the `release` directory.
- - `npm run prodServe`
+ - `yarn run prodServe`
       - uses node to start `sever.js`, which serves the `release` directory at [http://localhost:8000](http://localhost:8000).
- - `npm run release`
-      - runs `npm run prodBuild`, then `npm run prodServe`.
+ - `yarn run release`
+      - runs `yarn run prodBuild`, then `yarn run prodServe`.
+ - `yarn run clean`
+      - removes parcel's `.cache/`, `dist/`, and `release/` directories.
 
 # Setup for Heroku
 angular-parcel is setup to be deployed on a Heroku dyno out of the box. Just follow the deploy directions on Heroku. Parcel will run a production build and start the express server on the dyno!
