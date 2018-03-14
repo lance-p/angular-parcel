@@ -4,12 +4,12 @@
   "description": "Boilerplate Angular application bundled with Parcel.",
   "scripts": {
     "devServe": "parcel index.html",
-    "start": "npm run devServe",
+    "start": "yarn run devServe",
     "prodBuild": "parcel build index.html -d release --public-url .",
     "prodServe": "node server.js",
-    "release": "npm run prodBuild && npm run prodServe",
-    "postinstall": "npm run prodBuild",
-    "herokuStart": "npm run prodServe",
+    "release": "yarn run prodBuild && yarn run prodServe",
+    "postinstall": "yarn run prodBuild",
+    "herokuStart": "yarn run prodServe",
     "clean": "rm -rf .cache/ dist/ release/"
   },
   "repository": {
@@ -48,7 +48,7 @@
     "parcel-plugin-typescript": "^0.6.0",
     "rxjs": "^5.5.6",
     "systemjs": "^0.21.0",
-    "typescript": "^2.7.1",
+    "typescript": "^2.7.2",
     "zone.js": "^0.8.20"
   }
 }
